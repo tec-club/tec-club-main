@@ -1,6 +1,10 @@
-%YAML 1.2
+%YAML 1.2.1
 ---
 TEC Club:
     Founded: 2013-10-01
     Location: Corona del Mar HS
+    Advisor: Ms. Fletcher (afletcher@nmusd.us)
+        - 8th grade English teacher
+
+Meetings: Every Friday @ lunch, room 237
 # Continue with more core info about the club
