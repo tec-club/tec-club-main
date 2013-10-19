@@ -2,10 +2,10 @@
 ---
 TEC Club:
     Goals:
-        - Complete a project #This is an example of a goal for the future
+        - Complete a project: #This is an example of a goal for the future
             Status: workinprogress
             ProposedDate: 2013-10-17
-        - Start the club #This is an example of a goal already completed
+        - Start the club: #This is an example of a goal already completed
             Status: accomplished
             ProposedDate: 2013-10-17
             CompletedDate: 2013-10-17
