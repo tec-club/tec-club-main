@@ -1,0 +1,14 @@
+%YAML 1.2
+---
+Links:
+    # The coolest open source projects on the web!
+    Awesome GitHub Projects:
+        - https://github.com/CyanogenMod:
+            Name: CyanogenMod
+            Description: Android OS Fork
+            
+    # Materials for learning programming
+    Teaching:
+        Tutorials:
+        TextBooks:
+            - http://resrc.io/list/10/list-of-free-programming-books/
