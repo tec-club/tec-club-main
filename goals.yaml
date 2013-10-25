@@ -2,7 +2,11 @@
 ---
 TEC Club:
     Goals:
-        - Complete a project: #This is an example of a goal for the future
+<<<<<<< HEAD
+        - Learn GitHub
+            Status: workinprogress
+            ProposedDate: 2013-10-18
+        - Complete a project #This is an example of a goal for the future
             Status: workinprogress
             ProposedDate: 2013-10-17
         - Start the club: #This is an example of a goal already completed
