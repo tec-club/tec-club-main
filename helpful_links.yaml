@@ -17,4 +17,7 @@ Links:
     Teaching:
         Tutorials:
         TextBooks:
-            - http://resrc.io/list/10/list-of-free-programming-books
+            - http://resrc.io/list/10/list-of-free-programming-books/
+        Documentations:
+            #This helped AlexFargo1 a bit with JavaScript in Unity.
+            - http://docs.unity3d.com/Documentation/ScriptReference/
