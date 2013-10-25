@@ -6,9 +6,13 @@ Links:
         - https://github.com/CyanogenMod:
             Name: CyanogenMod
             Description: Android OS Fork
+        
+        - https://github.com/Gazler/githug:
+            Name: Githug
+            Description: Cool way of learning Git
             
     # Materials for learning programming
     Teaching:
         Tutorials:
         TextBooks:
-            - http://resrc.io/list/10/list-of-free-programming-books/
+            - http://resrc.io/list/10/list-of-free-programming-books
