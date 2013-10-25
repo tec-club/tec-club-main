@@ -9,16 +9,16 @@ Links:
         - https://github.com/Gazler/githug:
             Name: Githug
             Description: Cool way of learning Git
-        - https://github.com/JuhaKiili/RagePixel
+        - https://github.com/JuhaKiili/RagePixel:
             Name: Rage Pixel
             Description: 2D Drawing Tool For Unity
-        - https://github.com/jquery
+        - https://github.com/jquery:
             Name: jquery
-            Description: JavaScript Library			
+            Description: JavaScript Library
     # Materials for learning programming
     Teaching:
         Tutorials:
-		    - Itunes U Programming Methodology Lectures (entry level java course)
+            - Itunes U Programming Methodology Lectures #entry level java course
         TextBooks:
             - http://resrc.io/list/10/list-of-free-programming-books/
         Documentations:
