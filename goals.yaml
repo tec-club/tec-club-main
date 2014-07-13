@@ -2,14 +2,15 @@
 ---
 TEC Club:
     Goals:
-<<<<<<< HEAD
-        - Learn GitHub
-            Status: workinprogress
-            ProposedDate: 2013-10-18
-        - Complete a project #This is an example of a goal for the future
-            Status: workinprogress
-            ProposedDate: 2013-10-17
-        - Start the club: #This is an example of a goal already completed
-            Status: accomplished
-            ProposedDate: 2013-10-17
-            CompletedDate: 2013-10-17
+        - Design Logo
+            Status: wip
+            ProposedDate: 2014-07-13
+            Description: Design a TEC Club logo for use on branding items
+        - Setup curriculum for coding workshops
+            Status: wip
+            ProposedDate: 2014-07-13
+            Description: Prepare a curriculum for training absolute beginners to programming as well as one for training intermediate people. Curriculm should focus around HTML/JS for beginners and take a deeper look at JS or Python for intermediate.
+        - Draft Career Query presentation
+            Status: wip
+            ProposedDate: 2014-07-13
+            Description: Prepare and practice a 20-30 minute presentation on the programming profession. Should be applicable to an audience of non-programming HS teens. Presentation should be fun and entice the audience to want to learn more about programming. End goal is to get additional people to come to the oding workshops.
