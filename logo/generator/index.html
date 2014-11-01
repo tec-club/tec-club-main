@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>An Amazing Title</title>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet/less" type="text/css" href="style.less">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.5/less.min.js"></script>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body id="home" ng-app="tecClubGenerator" ng-controller="tecClubGeneratorCtrl">
+
+	<div class="input">
+		<h1>TEC Club Flyer</h1>
+		<input type="color" ng-model="centerGradient" ng-init="centerGradient='#ff5db1'">
+		<input type="color" ng-model="edgeGradient" ng-init="edgeGradient='#ef017c'">
+		<input type="number" ng-model="number" ng-init="number = 1">
+		<textarea ng-model="tagline" ng-init="tagline = 'Learn to code!'"></textarea>
+		<input type="date" ng-model="date" ng-init="date = '2015-01-01'">
+		<input type="location" ng-model="location" ng-init="location = 'MS Tech Room'">
+		<input type="lastline" ng-model="lastline" ng-init="lastline = 'Bring a Laptop!'">
+	</div>
+
+	<div class="output">
+		<tec-club-canvas number="number" lastline="lastline" location="location" date="date" tagline="tagline" center-gradient="centerGradient" edge-gradient="edgeGradient"></tec-club-canvas>
+	</div>
+	
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.2/angular.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

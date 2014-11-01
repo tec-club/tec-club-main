@@ -1,0 +1,53 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.input {
+	width: 300px;
+	margin: 2em 0 2em 5%;
+	float: left;
+
+	h1 {
+		font-family: 'Open Sans';
+	}
+
+	& > input, & > textarea {
+		width: 100%;
+		padding: .25em 1em;
+		line-height: 2em;
+		border: 1px solid #eee;
+		border-radius: 4px;
+		outline: none;
+		transition: border-color .5s;
+
+		&:active, &:focus {
+			border-color: #ff5db1;
+		}
+
+		& + input, & + textarea {
+			margin-top: 1em;
+		}
+	}
+
+	input[type='color'] {
+		padding: 0;
+	}
+}
+
+.output {
+	float: left;
+	margin-left: 10%;
+
+	@dimen: 600px;
+	@padding: 10px;
+	tec-club-canvas {
+		display: block;
+		width: @dimen;
+		height: @dimen;
+		margin: 2em;
+	}
+}
