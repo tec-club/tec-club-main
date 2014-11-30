@@ -15,6 +15,9 @@ Links:
         - https://github.com/jquery:
             Name: jquery
             Description: JavaScript Library
+        - https://github.com/glasklart/hd
+            Name: Glasklart
+            Description: A Winterboard theme for jailbroken iOS devices
     # Materials for learning programming
     Teaching:
         Tutorials:
